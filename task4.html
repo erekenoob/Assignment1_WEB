@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="">
+        <h1>Assignment 1 web tehnoligies</h1>
+        <style>h1 {
+                color:antiquewhite; 
+                background-color: #2c3e50;
+                padding: 15px;
+                text-align: center;
+                margin-bottom: 0px;
+                margin-top: 0px;}
+        </style>
+    </div>
+    <nav class="navbar">
+        <a href="index.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="exercise1/index.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+    </nav>
+
+    <!-- Часть 1: Таблица -->
+    <h2 id="table-heading">Student Academic Performance Log</h2>
+    <table>
+        <tr>
+            <th>Student's name</th>
+            <th>Item</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Bekhsultan</td>
+            <td>Web technologies</td>
+            <td>85</td>
+        </tr>
+        <tr class="highlight-row">
+            <td>Yerasyl</td>
+            <td>SDP</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Pinokio</td>
+            <td rowspan="2">Russion Language</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Saltanat</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+    <!-- Часть 2: Форма -->
+    <div id="feedback-container">
+        <h2 class="form-title">Contact form</h2>
+        <form>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@astanait.edu.kz">
+
+            <label for="role">Your role:</label>
+            <select id="role" name="role">
+                <option value="student">Student</option>
+                <option value="teacher">Professor</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label>Do you like this course?</label>
+            <div class="radio-group">
+                <input type="radio" id="yes" name="like_course" value="yes">
+                <label for="yes" style="display:inline; font-weight:normal;">Yes</label>
+                
+                <input type="radio" id="no" name="like_course" value="no">
+                <label for="no" style="display:inline; font-weight:normal;">You bet!</label>
+            </div>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" placeholder="Tap you review..."></textarea>
+
+            <button type="submit" class="submit-btn">Send!</button>
+        </form>
+    </div>
+
+</body>
+</html>

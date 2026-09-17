@@ -1,8 +1,5 @@
-/* =========================================
-   ОБЩИЕ СТИЛИ (ДЛЯ ВСЕХ СТРАНИЦ)
-   ========================================= */
 body {
-    background-color: #f4f6f9; /* Единый светло-серый фон */
+    background-color: #f4f6f9;
     font-family: Arial, Helvetica, sans-serif;
     color: #333333;
     margin: 0;
@@ -10,20 +7,19 @@ body {
 }
 
 h1, h2, h3 {
-    color: #2c3e50; /* Темно-синий цвет для всех заголовков */
+    color: #2c3e50;
 }
 
 a {
-    color: #3498db; /* Голубые ссылки */
+    color: #3498db;
     text-decoration: none;
 }
 
 a:hover {
-    color: #e74c3c; /* Красный при наведении */
+    color: #e74c3c;
     text-decoration: underline;
 }
 
-/* --- ОБЩАЯ НАВИГАЦИЯ (МЕНЮ) --- */
 .navbar {
     background-color: #2c3e50;
     padding: 15px;
@@ -44,12 +40,9 @@ a:hover {
 }
 
 
-/* =========================================
-   ЗАДАНИЕ 1: КАРТОЧКА ПРОФИЛЯ
-   ========================================= */
 #main-content {
     width: 800px;
-    margin: 0 auto; /* Центрируем */
+    margin: 0 auto; 
     padding: 20px;
 }
 
@@ -65,19 +58,17 @@ a:hover {
 
 .my-photo {
     max-width: 150px;
-    border-radius: 50%; /* Круглая фотка */
+    border-radius: 50%; 
     border: 3px solid #2c3e50;
 }
 
 
-/* =========================================
-   ЗАДАНИЕ 2: МАКЕТ НА FLOAT
-   ========================================= */
 #header-task2, #footer-task2 {
     background-color: #2c3e50;
     color: white;
     text-align: center;
     padding: 15px;
+    margin-bottom: 50%;
 }
 
 .layout-container {
@@ -87,9 +78,9 @@ a:hover {
 
 .sidebar {
     float: left;
-    width: 25%;
+    width: 20%;
     background-color: white;
-    padding: 20px;
+    padding: 5px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     box-sizing: border-box;
@@ -106,13 +97,10 @@ a:hover {
 }
 
 .clearfix {
-    clear: both; /* Очистка float */
+    clear: both;
 }
 
 
-/* =========================================
-   ЗАДАНИЕ 3: СТРАНИЦА ПАМЯТИ
-   ========================================= */
 .tribute-box {
     max-width: 800px;
     margin: 0 auto;
@@ -139,9 +127,6 @@ a:hover {
 }
 
 
-/* =========================================
-   ЗАДАНИЕ 4: ТАБЛИЦА И ФОРМА
-   ========================================= */
 table {
     width: 80%;
     margin: 20px auto;
@@ -161,14 +146,13 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9; /* Зебра */
+    background-color: #f9f9f9;
 }
 
 .highlight-row {
-    background-color: #ffeaa7 !important; /* Желтый цвет */
+    background-color: #ffeaa7 !important; 
 }
 
-/* Форма */
 #form-box {
     width: 400px;
     margin: 40px auto;
